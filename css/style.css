@@ -1,0 +1,50 @@
+.one{
+	width: 100px;
+	background-color: yellow;
+}
+.two{
+	width: 100px;
+	background-color: red;
+}
+.card-title{
+	height: 48px;
+}
+.contact{
+	margin:24px auto;
+}
+
+/* ----Media Query----*/
+
+/* Mobile Device*/
+@media(min-width: 0px) and (max-width: 500px)
+{
+	.one{
+		background-color: cyan;
+	}
+	.card{
+		margin-bottom: 10px;
+	}
+
+}
+
+
+/* Small Device*/
+@media(min-width: 501px) and (max-width: 768px)
+{
+	.one{
+		background-color: gray;
+	}
+}
+
+/* Laptop Device Desktop,Laptop,Notebook*/
+@media(min-width:768.01px) and (max-width: 1200px)
+{
+	
+}
+
+/* Large Device*/
+@media(min-width: 1200.01px)
+{
+	
+}
+
